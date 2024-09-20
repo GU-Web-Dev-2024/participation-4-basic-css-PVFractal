@@ -7,13 +7,18 @@
     <title>Participation 4. Basic CSS</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        form {
+            font-size: 30px;
+            color:rgb(0, 0, 0)
+        }
     </style>
 </head>
 <body>
     <h1>Participation 4. Basic CSS</h1>
-    <p>Hello!</p>
+    <p>Hello! This is colored by an external style sheet. This is set by the body selector.</p>
     <form>
-        <input type="text" value="type here" id="textbox1" name="MyTextBox">
+        <p>This is set by the embedded style!</p>
+        <input type="text" value="I screwed up this textbox pretty well with inline styling" name="MyTextBox" style="color:rgb(144, 255, 18); border-radius: 50%; width: 200px;">
     </form>
 </body>
 
